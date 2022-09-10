@@ -472,6 +472,10 @@ span {
 #contact .single {
   color: black;
 }
+#contact .single:hover{
+ color: blue;
+  background-color: white;
+}
 #contact .icon {
   font-size: 45px;
   margin: 0 auto;
