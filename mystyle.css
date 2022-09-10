@@ -672,9 +672,7 @@ span {
 /* end of media querry for tablet */
 /* media queries for desktop */
 @media screen and (min-width: 1200px) {
-.container{
-  
-}
+.containe
   #header .hamburger{
 display: none;
   }
