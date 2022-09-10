@@ -581,8 +581,8 @@ span {
 
 /* media querry for tablet */
 @media screen and (min-width: 768px) {
-.container {
-  min-height: 70vh;
+.container{
+  min-height:50vh;
 }
   #hero .cta {
     font-size: 2.5rem;
@@ -673,10 +673,11 @@ span {
 /* end of media querry for tablet */
 /* media queries for desktop */
 @media screen and (min-width: 1200px) {
-. container {
-  min-height: 70vh;
+.container{
+ min-height:50vh;
 }
-  #header .hamburger{
+  
+#header .hamburger{
 display: none;
   }
   #header .nav-list .tony{
