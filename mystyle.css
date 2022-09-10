@@ -12,7 +12,7 @@ a {
   text-decoration: none;
 }
 .container {
-  min-height:80vh;
+  min-height:100vh;
   width: 100%;
   display: flex;
   align-items: center;
@@ -581,8 +581,9 @@ span {
 
 /* media querry for tablet */
 @media screen and (min-width: 768px) {
-.container{
-  
+.container {
+  min-height: 70vh;
+}
   #hero .cta {
     font-size: 2.5rem;
     padding: 20px 60px;
@@ -672,7 +673,9 @@ span {
 /* end of media querry for tablet */
 /* media queries for desktop */
 @media screen and (min-width: 1200px) {
-.containe
+. container {
+  min-height: 70vh;
+}
   #header .hamburger{
 display: none;
   }
